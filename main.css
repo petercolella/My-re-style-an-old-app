@@ -1,0 +1,52 @@
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #fff url("images/bgtile.png") repeat-x;
+}
+
+.page {
+	margin: 90px auto 0;
+	width: 880px;
+}
+
+.content {
+	float: right;
+}
+
+.main {
+	background: url("../images/frame.png");
+	min-height: 204px;
+	padding: 40px;
+	width: 424px;
+}
+
+.main h2 {
+
+}
+
+.main p {
+
+}
+
+.main a {
+
+}
+
+.footer {
+
+}
+
+.footer li  {
+	font: 200 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	margin: 0;
+  	clear: both;
+  	display: inline-block;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:hover {
+
+}
