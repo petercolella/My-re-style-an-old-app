@@ -1,52 +1,99 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      max-width: 318px;
+      max-height: 512px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: #fff url("images/bgtile.png") repeat-x;
+  
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.h1 {
+	margin-right: 40px;
+}
+
+/*.content h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}*/
+
+.btn-default {
+	background-image: linear-gradient(to bottom, rgba(18, 86, 136, 0.5), #1c5380 100%);
+	border-color: #06365f;
+	border-radius: 3px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	padding: 9px 11px;
 }
 
 .page {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 	margin: 90px auto 0;
-	width: 880px;
 }
 
 .content {
-	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 60px;
+	/*float: right;*/
 }
 
 .main {
-	background: url("../images/frame.png");
-	min-height: 204px;
+	background: url("images/frame.png") no-repeat;
 	padding: 40px;
-	width: 424px;
+	width: 500px;
+	/*min-height: 204px;*/
+	/*width: 424px;*/
 }
 
 .main h2 {
-
+	color: #06365f;
+	margin-top: 0;
 }
 
 .main p {
-
+	margin: 10px 0;
 }
 
 .main a {
-
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 30px;
 }
 
 .footer {
-
+	text-align: center;
+	margin: 20px;
 }
 
-.footer li  {
-	font: 200 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	margin: 0;
-  	clear: both;
-  	display: inline-block;
+.footer li {
+	font-size: 11px;
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	color: #999;
 }
 
 .footer a {
+	color: #1c5380;
 	text-decoration: none;
 }
 
 .footer a:hover {
-
+	text-decoration: underline;
 }
